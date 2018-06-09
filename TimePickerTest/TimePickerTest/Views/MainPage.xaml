@@ -11,15 +11,8 @@
 
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Spacing="0">
-            <ScrollView VerticalOptions="FillAndExpand">
-                <AbsoluteLayout>
-                    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
-                                 AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
-                        <calendar:SfCalendar ViewMode="MonthView" SelectionMode="MultiSelection" ShowNavigationButtons="True"
-                                     SelectedDates="{Binding AvailableDates, Mode=TwoWay}"></calendar:SfCalendar>
-                    </StackLayout>
-                </AbsoluteLayout>
-            </ScrollView>
+            <calendar:SfCalendar ViewMode="MonthView" SelectionMode="MultiSelection" ShowNavigationButtons="True"
+                            SelectedDates="{Binding AvailableDates, Mode=TwoWay}"></calendar:SfCalendar>
         </StackLayout>
     </ContentPage.Content>
 
