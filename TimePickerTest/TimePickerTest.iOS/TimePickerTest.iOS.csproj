@@ -190,6 +190,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfCalendar">
+      <Version>16.1.0.37</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.550146" />
     <PackageReference Include="Prism.Unity.Forms" Version="7.0.0.396" />
   </ItemGroup>
