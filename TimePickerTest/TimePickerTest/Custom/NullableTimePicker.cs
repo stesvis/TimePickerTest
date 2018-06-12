@@ -82,7 +82,7 @@ namespace TimePickerTest.Custom
         {
             base.OnPropertyChanged(propertyName);
 
-            if (propertyName == TimeProperty.PropertyName || (propertyName == IsFocusedProperty.PropertyName && !IsFocused && (Time.ToString("c") == DateTime.Now.ToString("c"))))
+            if (propertyName == TimeProperty.PropertyName || (propertyName == IsFocusedProperty.PropertyName && !IsFocused && (Time.ToString("c") == DateTime.Now.TimeOfDay.ToString("c"))))
             {
                 AssignValue();
             }
